@@ -1,15 +1,15 @@
 name: sonoff
 description: A simple command-line application.
-version: 1.0.0
+version: 1.0.1
 # homepage: https://www.example.com
 
 environment:
-  sdk: '>=2.14.3 <3.0.0'
+  sdk: ^2.15.0
 
 
 dependencies:
- http: ^0.13.3
+ http: ^0.13.4
  crypto: ^3.0.1
 
 dev_dependencies:
-  lints: ^1.0.0
+  lints: ^1.0.1
