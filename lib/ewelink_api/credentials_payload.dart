@@ -1,5 +1,10 @@
 import 'dart:math';
 
+/// I think all the code got converted from this repo
+///
+/// https://github.com/skydiver/ewelink-api/
+
+
 class CredentialsPayload {
   static Future<Map<String, Object>> credentialsPayload({
     required String appid,

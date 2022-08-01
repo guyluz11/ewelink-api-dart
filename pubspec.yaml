@@ -4,12 +4,18 @@ version: 1.0.1
 # homepage: https://www.example.com
 
 environment:
-  sdk: ^2.15.0
+  sdk: ^2.17.0
 
 
 dependencies:
  http: ^0.13.4
- crypto: ^3.0.1
+ crypto: ^3.0.2
+
+ network_tools:
+   git:
+     ref: dev
+     url: https://github.com/guyluz11/network_tools.git
+     path: network_tools
 
 dev_dependencies:
-  lints: ^1.0.1
+  lints: ^2.0.0
